@@ -44,10 +44,10 @@
 		E8A5751C1AB363830028D82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8A5751D1AB363830028D82D /* ASDrawOnCanvasHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDrawOnCanvasHWTests.m; sourceTree = "<group>"; };
 		E8DD40651AB8C11C001316CC /* PaintImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaintImage.png; sourceTree = "<group>"; };
-		E8DD406A1AB8C9EF001316CC /* ASCurrentColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCurrentColorView.h; sourceTree = "<group>"; };
-		E8DD406B1AB8C9EF001316CC /* ASCurrentColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCurrentColorView.m; sourceTree = "<group>"; };
-		E8DD406D1AB8CA57001316CC /* ASDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDrawingView.h; sourceTree = "<group>"; };
-		E8DD406E1AB8CA57001316CC /* ASDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDrawingView.m; sourceTree = "<group>"; };
+		E8DD406A1AB8C9EF001316CC /* ASCurrentColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASCurrentColorView.h; path = ../ASCurrentColorView.h; sourceTree = "<group>"; };
+		E8DD406B1AB8C9EF001316CC /* ASCurrentColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASCurrentColorView.m; path = ../ASCurrentColorView.m; sourceTree = "<group>"; };
+		E8DD406D1AB8CA57001316CC /* ASDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASDrawingView.h; path = ../ASDrawingView.h; sourceTree = "<group>"; };
+		E8DD406E1AB8CA57001316CC /* ASDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASDrawingView.m; path = ../ASDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +71,6 @@
 		E8A574F51AB363830028D82D = {
 			isa = PBXGroup;
 			children = (
-				E8DD406A1AB8C9EF001316CC /* ASCurrentColorView.h */,
-				E8DD406B1AB8C9EF001316CC /* ASCurrentColorView.m */,
-				E8DD406D1AB8CA57001316CC /* ASDrawingView.h */,
-				E8DD406E1AB8CA57001316CC /* ASDrawingView.m */,
 				E8A575001AB363830028D82D /* ASDrawOnCanvasHW */,
 				E8A5751A1AB363830028D82D /* ASDrawOnCanvasHWTests */,
 				E8A574FF1AB363830028D82D /* Products */,
@@ -98,6 +94,10 @@
 				E8A575061AB363830028D82D /* AppDelegate.m */,
 				E8A575081AB363830028D82D /* ViewController.h */,
 				E8A575091AB363830028D82D /* ViewController.m */,
+				E8DD406A1AB8C9EF001316CC /* ASCurrentColorView.h */,
+				E8DD406B1AB8C9EF001316CC /* ASCurrentColorView.m */,
+				E8DD406D1AB8CA57001316CC /* ASDrawingView.h */,
+				E8DD406E1AB8CA57001316CC /* ASDrawingView.m */,
 				E8A5750B1AB363830028D82D /* Main.storyboard */,
 				E8A5750E1AB363830028D82D /* Images.xcassets */,
 				E8A575101AB363830028D82D /* LaunchScreen.xib */,
