@@ -14,7 +14,6 @@
 @property (assign, nonatomic) CGPoint startPoint;
 @property (assign, nonatomic) NSInteger lineWidth;
 @property (assign, nonatomic) BOOL isDrawing;
-
 @end
 
 
