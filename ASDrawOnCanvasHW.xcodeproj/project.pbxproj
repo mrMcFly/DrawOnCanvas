@@ -14,9 +14,9 @@
 		E8A5750F1AB363830028D82D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A5750E1AB363830028D82D /* Images.xcassets */; };
 		E8A575121AB363830028D82D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8A575101AB363830028D82D /* LaunchScreen.xib */; };
 		E8A5751E1AB363830028D82D /* ASDrawOnCanvasHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A5751D1AB363830028D82D /* ASDrawOnCanvasHWTests.m */; };
-		E8DD40661AB8C11C001316CC /* PaintImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E8DD40651AB8C11C001316CC /* PaintImage.png */; };
-		E8DD406C1AB8C9EF001316CC /* ASCurrentColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DD406B1AB8C9EF001316CC /* ASCurrentColorView.m */; };
-		E8DD406F1AB8CA57001316CC /* ASDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DD406E1AB8CA57001316CC /* ASDrawingView.m */; };
+		E8F1CC211ADDA40600758ADB /* ASCurrentColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F1CC1E1ADDA40600758ADB /* ASCurrentColorView.m */; };
+		E8F1CC221ADDA40600758ADB /* ASDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F1CC201ADDA40600758ADB /* ASDrawingView.m */; };
+		E8F1CC241ADDA41700758ADB /* PaintImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E8F1CC231ADDA41700758ADB /* PaintImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,11 +43,11 @@
 		E8A575171AB363830028D82D /* ASDrawOnCanvasHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASDrawOnCanvasHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A5751C1AB363830028D82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8A5751D1AB363830028D82D /* ASDrawOnCanvasHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASDrawOnCanvasHWTests.m; sourceTree = "<group>"; };
-		E8DD40651AB8C11C001316CC /* PaintImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaintImage.png; sourceTree = "<group>"; };
-		E8DD406A1AB8C9EF001316CC /* ASCurrentColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASCurrentColorView.h; path = ../ASCurrentColorView.h; sourceTree = "<group>"; };
-		E8DD406B1AB8C9EF001316CC /* ASCurrentColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASCurrentColorView.m; path = ../ASCurrentColorView.m; sourceTree = "<group>"; };
-		E8DD406D1AB8CA57001316CC /* ASDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASDrawingView.h; path = ../ASDrawingView.h; sourceTree = "<group>"; };
-		E8DD406E1AB8CA57001316CC /* ASDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASDrawingView.m; path = ../ASDrawingView.m; sourceTree = "<group>"; };
+		E8F1CC1D1ADDA40600758ADB /* ASCurrentColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCurrentColorView.h; sourceTree = "<group>"; };
+		E8F1CC1E1ADDA40600758ADB /* ASCurrentColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCurrentColorView.m; sourceTree = "<group>"; };
+		E8F1CC1F1ADDA40600758ADB /* ASDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDrawingView.h; sourceTree = "<group>"; };
+		E8F1CC201ADDA40600758ADB /* ASDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDrawingView.m; sourceTree = "<group>"; };
+		E8F1CC231ADDA41700758ADB /* PaintImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PaintImage.png; path = ASDrawOnCanvasHW/PaintImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +94,10 @@
 				E8A575061AB363830028D82D /* AppDelegate.m */,
 				E8A575081AB363830028D82D /* ViewController.h */,
 				E8A575091AB363830028D82D /* ViewController.m */,
-				E8DD406A1AB8C9EF001316CC /* ASCurrentColorView.h */,
-				E8DD406B1AB8C9EF001316CC /* ASCurrentColorView.m */,
-				E8DD406D1AB8CA57001316CC /* ASDrawingView.h */,
-				E8DD406E1AB8CA57001316CC /* ASDrawingView.m */,
+				E8F1CC1D1ADDA40600758ADB /* ASCurrentColorView.h */,
+				E8F1CC1E1ADDA40600758ADB /* ASCurrentColorView.m */,
+				E8F1CC1F1ADDA40600758ADB /* ASDrawingView.h */,
+				E8F1CC201ADDA40600758ADB /* ASDrawingView.m */,
 				E8A5750B1AB363830028D82D /* Main.storyboard */,
 				E8A5750E1AB363830028D82D /* Images.xcassets */,
 				E8A575101AB363830028D82D /* LaunchScreen.xib */,
@@ -135,7 +135,7 @@
 		E8DD40691AB8C1FE001316CC /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E8DD40651AB8C11C001316CC /* PaintImage.png */,
+				E8F1CC231ADDA41700758ADB /* PaintImage.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -220,9 +220,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F1CC241ADDA41700758ADB /* PaintImage.png in Resources */,
 				E8A5750D1AB363830028D82D /* Main.storyboard in Resources */,
 				E8A575121AB363830028D82D /* LaunchScreen.xib in Resources */,
-				E8DD40661AB8C11C001316CC /* PaintImage.png in Resources */,
 				E8A5750F1AB363830028D82D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,9 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8DD406C1AB8C9EF001316CC /* ASCurrentColorView.m in Sources */,
+				E8F1CC211ADDA40600758ADB /* ASCurrentColorView.m in Sources */,
 				E8A5750A1AB363830028D82D /* ViewController.m in Sources */,
-				E8DD406F1AB8CA57001316CC /* ASDrawingView.m in Sources */,
+				E8F1CC221ADDA40600758ADB /* ASDrawingView.m in Sources */,
 				E8A575071AB363830028D82D /* AppDelegate.m in Sources */,
 				E8A575041AB363830028D82D /* main.m in Sources */,
 			);
