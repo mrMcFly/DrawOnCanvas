@@ -52,11 +52,20 @@
     CGContextStrokePath(context);
     
     self.canvas.image = UIGraphicsGetImageFromCurrentImageContext();
+
     [self.canvas setAlpha:alpha];
     UIGraphicsEndImageContext();
     
     
     self.startPoint = currentPoint;
+    
+    UIGraphicsBeginImageContext(self.mainCanvas.frame.size);
+    [self.mainCanvas.image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height) blendMode:kCGBlendModeNormal alpha:1.0];
+    [self.canvas.image drawInRect:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height) blendMode:kCGBlendModeNormal alpha:alpha];
+    self.mainCanvas.image = UIGraphicsGetImageFromCurrentImageContext();
+    self.canvas.image = nil;
+    UIGraphicsEndImageContext();
+
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
